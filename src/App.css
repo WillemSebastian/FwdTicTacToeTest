@@ -1,32 +1,119 @@
-.App {
+#tic-tac-toe .disable {
+  text-transform:uppercase; 
+  font-size:30px; 
+  font-family:Georgia, "Times New Roman", Times, serif}
+#tic-tac-toe #game li {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  height: 60px;
+  text-align: center;
+  justify-content: center;
+  width: 70px;
+  margin-left: 10px;
+  margin-top: 10px;
+  }
+#tic-tac-toe #game li.disable{
+  color:#fff
+}
+#tic-tac-toe #game {
+  float:left; 
+  padding:0; 
+  clear:both
+}
+.new_span {
+  width:226px
+}
+#tic-tac-toe #reset { 
+  padding:5px 10px; 
+  color:#fff; 
+  font-family:Arial, Helvetica, sans-serif; 
+  font-size:20px; 
+  clear:both; 
+  cursor:pointer; 
+  float:left; 
+  text-align:center; 
+  text-transform:uppercase; 
+  outline:none; 
+  width:204px
+}
+.input-prepend span.pre_text {
+  width:55px;
+}
+.input-prepend .span1{
+  width:93px;
+}
+.input-prepend {
+  margin-bottom:10px
+}
+.clr {
+  clear:both; 
+  height:0
+}
+#tic-tac-toe h1 {
+  text-align:center; 
+  font-size:28px
+}
+#tic-tac-toe li::-moz-selection {
+  background:none;
+  color:#000;
+}
+#tic-tac-toe li::-webkit-selection {
+  background:none;
+  color:#000;
+}
+#tic-tac-toe {
+  width:220px; 
+  margin:0 auto
+}
+.input-append .win_times {
+  background:#fff; 
+  width:101px
+}
+.win_text {
+  width:52px
+}
+.span3{
+  width: 220px;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.square {
+  background: #fff;
+  border: 1px solid grey;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 60px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 8px;
+  margin-right: 4px;
+  padding: 0;
+  text-align: center;
+  width: 60px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
 }
 
-.App-link {
-  color: #61dafb;
+.flex1{
+  flex: 1;
+  flex-direction: row;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.marginLeft{
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.marginRight{
+  margin-bottom: 20px;
+}
+marginBottom{
+  margin-bottom: 20px;
 }
